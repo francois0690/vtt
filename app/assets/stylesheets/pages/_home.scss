@@ -1,1 +1,21 @@
 // Specific CSS for your home-page
+
+
+.entete {
+  // text-align: center;
+  // background: black;
+
+  #logo {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    margin-bottom: 8px;
+
+  }
+}
+
+.contact {
+
+  justify-content: flex-end;
+
+}

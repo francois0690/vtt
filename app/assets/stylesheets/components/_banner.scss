@@ -1,0 +1,107 @@
+.banner {
+  // width: 90%;
+
+  // div
+  background-size: cover;
+  background-position: center;
+
+    padding: 140px 0px;
+    text-align: center;
+  // padding-top: 30px;
+  margin-bottom: 30px;
+
+  border-radius: 0px;
+  // font-family: 'Baloo Chettan 2', cursive;
+  // font-family: 'IBM Plex Sans', cursive;
+  // font-family: 'IBM Plex Sans', sans-serif;
+
+
+  h1 {
+    font-family: 'Baloo Chettan 2', cursive;
+    margin: 0;
+    color: white;
+    // text-shadow: 1px 1px 25px rgba(0,0,0,.9);
+    text-shadow: 1px 1px 25px rgba(255,255,255,.1);
+
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+
+  h2 {
+    font-family: 'Baloo Chettan 2', cursive;
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    opacity: 1;
+    font-size: 24px;
+    margin-bottom: 8px;
+
+    .comte {
+      color: yellow;
+    }
+
+  }
+
+  p, .op {
+    font-family: 'Baloo Chettan 2', cursive;
+    margin: 0;
+    font-size: 24px;
+    color: white;
+
+    text-shadow: 1px 1px 2px rgba(0,0,0,1);
+    // text-shadow: 1px 1px 20px rgba(0,0,0,.1);
+    margin-bottom: 8px;
+    text-decoration-color: rgba(0,0,0,0);
+    text-decoration: none;
+    // transition: all 1.5s ease-in;
+
+    &:hover {
+
+      // opacity: 1;
+    // text-decoration: underline;
+    // text-decoration-color: rgba(0,0,0,1);
+    }
+  }
+
+p {
+  opacity: 1;
+}
+
+.op {
+  opacity: .5;
+}
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+
+
+
+
+
+
+  .logo-baseline {
+  // font-family: 'Ginto Nord Light';
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 200;
+  color: black;
+  text-decoration-color: rgba(0,0,0,0);
+  text-decoration: none;
+  opacity: 1;
+  transition: all 1.5s ease-in;
+  }
+
+  .logo-baseline:hover {
+    // opacity: 0;
+    text-decoration: underline;
+    text-decoration-color: rgba(0,0,0,1);
+  }
+
+
+}
+
+
