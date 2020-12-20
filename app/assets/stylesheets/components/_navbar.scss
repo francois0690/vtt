@@ -16,7 +16,7 @@
       transition: all .3s ease-in;
 
       &:hover {
-        color: red;
+        color: #c24914;
       }
   }
 
@@ -40,7 +40,11 @@
       font-size: 24px;
       text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
       font-weight: bold;
-      opacity: 0.8;
+      opacity: 1;
+
+      i {
+        color: #682c0e;
+      }
     }
 
 }

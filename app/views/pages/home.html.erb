@@ -12,7 +12,7 @@
 
 
 <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),
- url(<%= image_path "vtt2.jpg", id:"logo" %>)">
+ url(<%= image_path "vtt3.jpg", id:"logo" %>)">
 
 
 
@@ -20,13 +20,13 @@
 
 
     <h1>Réparation VTT & Cycles à Poligny </h1>
-    <h2>Mon atelier est basé à Poligny dans le Jura &nbsp; <i class="fas fa-cheese comte"></i></h2>
+    <h2>Mon atelier est basé à Poligny dans le Jura &nbsp; 😜<i class="fas fa-cheese comte"></i></h2>
     <br>
-    <h2> Je répare tous type de vélos : VTT, VTC, CycloRolls, RTT, GPT et autres</p>
+    <h2>Je répare tous type de vélos : Route, VTT, VAE, Ville, VTC et autres</p>
 
 <br>
 <br>
-<p class="op"><u>Contactez-moi pour tout renseignement :</u></p>
+<p class="op"><u>Contactez-moi pour tout renseignement</u></p>
 
     <p><i class="fas fa-phone"> &nbsp; </i>Téléphone : 06 25 14 65 33</p>
     <p><i class="fas fa-at"> &nbsp; </i>E-mail : <%= mail_to "alexis@gmail.com" %></p>
@@ -46,10 +46,68 @@
 <div class="container">
 
 
-<h1>Passioné de VTT</h1>
-<!--   <div class="entete">
- <%= image_tag "vtt2.jpg", id:"logo" %>
-</div>
- -->
+
+  <div class="vtt-card">
+    <div class="info">
+        <h2>Réparation et entretien de vélos</h2>
+        <p> Alexis Fix Service est spécialisé dans la réparation, l’entretien et la vente de vélo à Poligny.</p>
+         <p>Sur rendez-vous dans notre atelier ou à domicile, que vous utilisiez votre vélo pour vous déplacer ou pour faire du sport, nous vous proposons des solutions innovantes, performantes et écologiques adaptées à votre pratique (Route, VTT, VAE, Ville, etc.).
+        </p>
+    </div>
+    <%= image_tag "atelier_s4.jpg" %>
+  </div>
+  <br>
+
+
+<div class="vtt-card">
+    <div class="info">
+        <h2>Notre expérience à votre service !</h2>
+        <p> Originaire de Savoie, je suis passionné de vélo depuis toujours, pratiquant le cyclisme sur route et le VTT, j’ai eu le plaisir d’exercer dans cet univers depuis maintenant plus de vingt ans.</p>
+
+
+         <p>J'ai participé à de nombreuses courses régionales et nationales, je mets aujourd’hui mon expérience au service de votre pratique cycliste.</p>
+<p>Vous pouvez me suivre sur mon application favorite Strava 🙉 ou vous pouvez suivre mes traces #alexisstrava et m'envoyer un kudos 😜</p>
+
+   <p>Alexis, fondateur de Alexis Fix Service        </p>
+    <%= image_tag "signature.jpg" %>
+    </div>
+    <%= image_tag "vtt_vue_ar.jpg" %>
+  </div>
+  <br>
+
+<div class="vtt-card">
+    <div class="info">
+        <h2>Entretien</h2>
+        <p> Nous proposons différents forfaits d'entretien de vos vélos </p>
+          <ul>
+
+            <li>Basic : 35 €</li>
+            <li>Transmission : 50 €</li>
+            <li>Deluxe : 70 €</li>
+            <li>Pro : 94 €</li>
+            <li>Route : 132 €</li>
+          </ul>
+
+
+      <p>Contactez-nous pour un devis spécifique ou plus de renseignements</p>
+    </div>
+    <%= image_tag "atelier_s1.jpg" %>
+  </div>
+  <br>
+
+
+<div class="vtt-card">
+    <div class="info">
+        <h2>Localisation</h2>
+        <p> Mon atelier est basé au RDC de notre immeuble, au 15 rue des Jasmins à Poligny. </p>
+
+    </div>
+    <%= image_tag "batiment.jpg" %>
+  </div>
+  <br>
 
 </div>
+
+
+
+<%= render 'shared/footer' %>
