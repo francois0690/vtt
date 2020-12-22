@@ -9,28 +9,8 @@ body {
   // font-weight: bold;
   }
 
-
-
 }
 
-// .entete {
-//   // text-align: center;
-//   // background: black;
-
-//   #logo {
-//     width: 100%;
-//     height: 600px;
-//     object-fit: cover;
-//     margin-bottom: 8px;
-
-//   }
-// }
-
-// .contact {
-
-//   justify-content: flex-end;
-
-// }
 
 .vtt-card {
 
@@ -43,30 +23,40 @@ body {
   align-items: flex-start;
   justify-content: space-between;
 
-  img {
+
+  #image {
     // height: 100%;
     width: 40%;
+    height: 450px;
     object-fit: cover;
-    transition: all .5s ease;
-    &:hover {
-      // text-shadow: 1px 1px 25px rgba(255,255,255,.6);
-      transform:scale(1.02);
-    }
+    // transition: all .5s ease;
+    // &:hover {
+    //   // text-shadow: 1px 1px 25px rgba(255,255,255,.6);
+    //   transform:scale(1.02);
+    // }
   }
 
-  .info {
 
+
+  .info {
+    width: 60%;
     padding: 32px;
 
     text-align: justify;
 
     h2 {
-      font-size: 32px;
+      font-size: 24px;
+      // font-size: 32px;
       text-shadow: 1px 1px 2px rgba(0,0,0,.2);
       padding-bottom: 12px;
       border-bottom: 1px solid rgba(0,0,0,0.5);
       border-color: rgba(0,0,0,0.2);
       margin-bottom: 12px;
+
+       i {
+        font-size: 28px;
+        color: #682c0e;
+      }
 
     }
 
@@ -77,9 +67,31 @@ body {
       margin-bottom: 6px;
     }
 
-    // width: 70%;
+
+
+   #signature {
+      width: 40%;
+      object-fit: cover;
+    }
+          // width: 70%;
   }
 
 
+  .my-carousel {
+      width: 40%;
+      // flex-grow: 1;
+      img {
+        // width: 40%;
+        height: 450px;
+        object-fit: cover;
+        // padding: 16px;
+        // border-radius: 20px;
+        }
+  }
+
+    // hauteur de l'image du 2eme catousel plus importante
+    #carousel2 img{
+        height: 600px !important;
+      }
 
   }
