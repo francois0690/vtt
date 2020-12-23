@@ -1,5 +1,85 @@
 // Specific CSS for your home-page
 
+
+// html { font-size: 62.5%; }
+
+
+@media (min-width: 1201px) {
+  /* For a screen > 1201px, this CSS will be read */
+  html { font-size: 62.5%; }
+  .vtt-card {
+      // background: white;
+  }
+  // .info {
+  //   width: 60%;
+  // }
+  // .my-carousel {
+  //     width: 40%;
+  // }
+}
+
+
+@media (max-width: 1200px) {
+  /* For a screen < 1200px, this CSS will be read */
+  html { font-size: 60%; }
+  .vtt-card {
+      // background: purple;
+    }
+  // .info {
+  //   width: 60%;
+  // }
+  // .my-carousel {
+  //   width: 40%;
+  // }
+}
+
+
+@media (max-width: 992px) {
+  /* For a screen < 992px, this CSS will be read */
+html { font-size: 52.5%; }
+  .vtt-card {
+      // background: red;
+  }
+  // .info {
+  //   width: 60%;
+  // }
+  // .my-carousel {
+  //   width: 40%;
+  // }
+
+}
+
+@media (max-width: 768px) {
+  /* For a screen < 768px, this CSS will be read */
+  html { font-size: 45%; }
+  .vtt-card {
+      // background: green;
+    }
+  // .info {
+  //   width: 50%;
+  // }
+  // .my-carousel {
+  //   width: 50%;
+  // }
+}
+
+@media (max-width: 576px) {
+  html { font-size: 35%; }
+  /* For a screen < 576px, this CSS will be read */
+  .vtt-card {
+      // background: grey;
+    }
+  // .info {
+  //   width: 40%;
+  // }
+  // .my-carousel {
+  //   width: 60%;
+  // }
+}
+
+
+
+
 body {
 
   // font-family: 'Baloo Chettan 2', cursive;
@@ -16,18 +96,17 @@ body {
 
 
   overflow: hidden;
-  background: white; //rgba(250,250,250,0.1);
+  background: white; //déplacé dans @media
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  // padding: 16px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
 
 
   #image {
-    // height: 100%;
+
     width: 40%;
-    height: 450px;
+    height: 45rem; //450px;
     object-fit: cover;
     // transition: all .5s ease;
     // &:hover {
@@ -39,22 +118,22 @@ body {
 
 
   .info {
-    width: 60%;
-    padding: 32px;
+    width: 60%; //deplacé @media
+    padding: 3.2rem; //32px;
 
     text-align: justify;
 
     h2 {
-      font-size: 24px;
-      // font-size: 32px;
+      font-size: 2.4rem;
+
       text-shadow: 1px 1px 2px rgba(0,0,0,.2);
-      padding-bottom: 12px;
+      padding-bottom: 1.2rem; //12px;
       border-bottom: 1px solid rgba(0,0,0,0.5);
       border-color: rgba(0,0,0,0.2);
-      margin-bottom: 12px;
+      margin-bottom: 1.2rem; //12px;
 
        i {
-        font-size: 28px;
+        font-size: 2.8rem; //=28px
         color: #682c0e;
       }
 
@@ -62,9 +141,9 @@ body {
 
     p, li {
 
-      font-size: 20px;
+      font-size: 2rem;
       opacity: .8;
-      margin-bottom: 6px;
+      margin-bottom: .6rem;//6px;
     }
 
 
@@ -78,20 +157,24 @@ body {
 
 
   .my-carousel {
-      width: 40%;
-      // flex-grow: 1;
+      width: 40%; //deplacé @media
+
       img {
-        // width: 40%;
-        height: 450px;
+        min-height: 30rem; //200px;
+        max-height: 45rem; //450px;
+        height: 45rem;
+        max-width : 100%;
+        // height: 450px;
         object-fit: cover;
-        // padding: 16px;
-        // border-radius: 20px;
+
         }
   }
 
     // hauteur de l'image du 2eme catousel plus importante
     #carousel2 img{
-        height: 600px !important;
+      max-height: 60rem; //600px;
+      height: 60rem;
+        // height: 600px !important;
       }
 
   }
